@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { Picture } from "astro:assets";
+import bridge from "assets/bridge.jpg";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
@@ -15,8 +16,18 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
   <Container>
     <Sectionhead>
       <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">The Integration and Improvement Experts</Fragment>
+      <Fragment slot="desc"></Fragment>
     </Sectionhead>
+    <div class="flex flex-col gap-3 mx-auto max-w-2xl m-8">
+      <Picture
+          src={bridge}
+          alt="Bear Mtn Bridge"
+          widths={[200, 400, 600]}
+          sizes="(max-width: 800px) 100vw, 620px"
+          loading="eager"
+          format="avif"
+        />
+      </div>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
