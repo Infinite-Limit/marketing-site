@@ -3,6 +3,8 @@ import Container from "@components/container.astro";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import { Image } from "astro:assets";
+import infiniteLogo from "assets/Infinite-limit-Logo-multi.png";
 
 const menuitems = [
   {
@@ -39,9 +41,13 @@ const menuitems = [
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/marketing-site/" class="text-lg"
-          ><span class="font-bold text-slate-800">Infinite Limit</span><span
-            class="text-slate-500"> | Business Services</span
-          >
+          ><!--<span class="font-bold text-slate-800">Infinite Limit</span><span
+            class="text-slate-500"> | Business Services</span>-->
+            <Image 
+            src={infiniteLogo} 
+            alt="Infinite Logo" 
+            width="284"
+            height="80"/>
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
