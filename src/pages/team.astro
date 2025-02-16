@@ -20,60 +20,11 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
       <Fragment slot="desc"></Fragment>
     </Sectionhead>
     <div class="grid md:grid-cols-2 gap-20 mx-auto max-w-6xl mt-12">
-          <div class="group">
-            <div class="grid justify-items-center w-full aspect square">
-              <Picture
-                src={marge}
-                alt={'Marge Fleck'}
-                sizes="(max-width: 800px) 100vw, 400px"
-                width={300}
-                height={400}
-                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
-                />
-            </div>
-
-            <div class="mt-4 text-left">
-              <h2 class="text-lg text-gray-800">{"Margaret Fleck"}</h2>
-              <h3 class="text-md text-slate-500">
-                {"Co-Founder and Strategist"}
-              </h3>
-              <p class="text-sm leading-relaxed text-slate-500"><br>
-                Margaret Fleck, also known as Marge, is a Co-Founder of Infinite 
-                Limit, LLC, where she serves as Strategist and oversees Finances 
-                and Business Administration. Her primary responsibility is to guide 
-                the company’s strategic direction while ensuring its fiscal responsibilities 
-                are met and its administrative processes are sound. Additionally, 
-                Marge plays a pivotal role in reviewing new client requirements and 
-                overseeing the timely and accurate completion of ongoing client projects. 
-                <br><br>Throughout her career, Margaret served as the President of Marge Fleck 
-                Professional Advisors (MFPA), providing consulting services in Electronic 
-                and Consumer Product Manufacturing and the Public Transportation industries. 
-                In addition to providing Contract Administration and back-office services, 
-                Marge’s experience includes Business Process/System Assessments and System 
-                Implementations (Peoplesoft) for over a dozen Public Transportation Agencies. 
-                <br><br>Prior to establishing MFPA, Marge held the position of Materials and Supply 
-                Chain Manager at Avon Products, where she successfully implemented the company’s 
-                Supply Chain Planning System – Manugistics. <br><br>As Manager of Supply Chain Planning 
-                Systems at ACCO North America, Marge oversaw the implementation of an enterprise-wide 
-                Supply Chain Planning System across 13 locations in North America. This 
-                initiative resulted in an annual cost savings of $12 million. As Manager, 
-                Industrial Engineering at ACCO USA, Swingline, Marge spearheaded initiatives to 
-                implement cellular manufacturing and automation projects, resulting in cost 
-                savings exceeding $8 million. <br><br>Prior to her role at ACCO, Marge held the position 
-                of Supervisor, Industrial Engineering/Systems at Loral Electronics Systems. 
-                During her tenure at Loral, Marge oversaw the corporate work measurement program 
-                and developed bid proposals for Department of Defense contracts. <br><br>Ms. Fleck possesses 
-                a strategic mindset and demonstrates the ability to effectively motivate and lead 
-                cross-functional teams to implement innovative solutions to key business opportunities.
-              </p>
-            </div>
-          </div>
-      
         <div class="group">
           <div class="grid justify-items-center w-full aspect square">
             <Picture
               src={paul}
-              alt={'paul'}
+              alt={"Paul O'Flaherty"}
               sizes="(max-width: 800px) 100vw, 400px"
               width={300}
               height={400}
@@ -82,8 +33,8 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
           </div>
 
           <div class="mt-4 text-left">
-            <h2 class="text-lg text-gray-800">{"Paul O'Flaherty"}</h2>
-            <h3 class="text-md text-slate-500">
+            <h2 class="text-lg text-gray-800 text-center">{"Paul O'Flaherty"}</h2>
+            <h3 class="text-md text-slate-500 text-center">
               {"Co-Founder and Consultant"}
             </h3>
             <p class="text-sm leading-relaxed text-slate-500"><br>
@@ -110,6 +61,55 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
               the ECi eAutomate system, a widely used platform by Office Equipment Dealers. 
               During this period, the concept for Infinite Limit | Business Services emerged, 
               and our first client joined us after Paul’s departure from CEO Juice in March 2021.
+            </p>
+          </div>
+        </div>
+      
+        <div class="group">
+          <div class="grid justify-items-center w-full aspect square">
+            <Picture
+              src={marge}
+              alt={'Marge Fleck'}
+              sizes="(max-width: 800px) 100vw, 400px"
+              width={300}
+              height={400}
+              class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+              />
+          </div>
+
+          <div class="mt-4 text-left">
+            <h2 class="text-lg text-gray-800 text-center">{"Marge Fleck"}</h2>
+            <h3 class="text-md text-slate-500 text-center">
+              {"Co-Founder and Strategist"}
+            </h3>
+            <p class="text-sm leading-relaxed text-slate-500"><br>
+              Margaret Fleck, also known as Marge, is a Co-Founder of Infinite 
+              Limit, LLC, where she serves as Strategist and oversees Finances 
+              and Business Administration. Her primary responsibility is to guide 
+              the company’s strategic direction while ensuring its fiscal responsibilities 
+              are met and its administrative processes are sound. Additionally, 
+              Marge plays a pivotal role in reviewing new client requirements and 
+              overseeing the timely and accurate completion of ongoing client projects. 
+              <br><br>Throughout her career, Margaret served as the President of Marge Fleck 
+              Professional Advisors (MFPA), providing consulting services in Electronic 
+              and Consumer Product Manufacturing and the Public Transportation industries. 
+              In addition to providing Contract Administration and back-office services, 
+              Marge’s experience includes Business Process/System Assessments and System 
+              Implementations (Peoplesoft) for over a dozen Public Transportation Agencies. 
+              <br><br>Prior to establishing MFPA, Marge held the position of Materials and Supply 
+              Chain Manager at Avon Products, where she successfully implemented the company’s 
+              Supply Chain Planning System – Manugistics. <br><br>As Manager of Supply Chain Planning 
+              Systems at ACCO North America, Marge oversaw the implementation of an enterprise-wide 
+              Supply Chain Planning System across 13 locations in North America. This 
+              initiative resulted in an annual cost savings of $12 million. As Manager, 
+              Industrial Engineering at ACCO USA, Swingline, Marge spearheaded initiatives to 
+              implement cellular manufacturing and automation projects, resulting in cost 
+              savings exceeding $8 million. <br><br>Prior to her role at ACCO, Marge held the position 
+              of Supervisor, Industrial Engineering/Systems at Loral Electronics Systems. 
+              During her tenure at Loral, Marge oversaw the corporate work measurement program 
+              and developed bid proposals for Department of Defense contracts. <br><br>Ms. Fleck possesses 
+              a strategic mindset and demonstrates the ability to effectively motivate and lead 
+              cross-functional teams to implement innovative solutions to key business opportunities.
             </p>
           </div>
         </div>
