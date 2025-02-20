@@ -1,0 +1,114 @@
+---
+import Container from "@components/container.astro";
+import { Picture } from "astro:assets";
+import Layout from "@layouts/Layout.astro";
+import whats_included from "assets/whats_included.png"
+import connectwise_manage from "assets/connectwise_manage.png"
+import elements from "assets/elements.png"
+---
+
+<Layout title="Approach">
+  <Container>
+    <div class="mt-16 mx-40 md:mt-0">
+        <h2 class="py-10 text-2xl lg:text-4xl text-center font-bold lg:tracking-tight">
+            ILBS Approach to ConnectWise &lt;-&gt; eAutomate Integration</h2>
+        <p class="text-lg mt-4 text-slate-600">
+            Infinite Limit | Business Services employs our proprietary methodology as 
+            a guiding principle when implementing an integration of ConnectWise Manage 
+            with ECI eAutomate utilizing the CEO Juice Sync tools.</p>
+            <div class="grid justify-items-center w-full pt-4">
+                <Picture
+                src={whats_included}
+                alt={"what's included"}
+                sizes="(max-width: 800px) 100vw, 400px"
+                width={600}
+                height={400}
+                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center"
+                />
+            </div>
+        </p>
+        <p2 class="text-lg mt-4 text-slate-600">
+            Our objective is to maintain a streamlined and effective process. 
+            During the Discovery phase, we engage in meetings with our clients 
+            to gain a comprehensive understanding of their objectives. This enables 
+            us to tailor the project plan to meet their specific requirements.<br></br>
+            We are confident in our ability to advocate on our client’s behalf with 
+            relevant software vendors throughout the project lifecycle. At the same 
+            time, our role is to ensure that your project remains on track and provide 
+            guidance on industry best practices for effectively utilizing the syncs.
+            <br></br>Currently, our focus is on providing support to Office Technology 
+            Dealers who also offer Managed IT Services. Specifically, dealers utilizing 
+            eAutomate to manage their OT business (printing and imaging) while also using 
+            ConnectWise Manage to administer their MSP (Managed Service Provider) business. 
+            Since ConnectWise Manage lacks a General Ledger, it is imperative to integrate 
+            it with a software package that provides this functionality, such as eAutomate.
+            <br></br>Each of our clients has distinct requirements in this area. Some 
+            clients choose to install all of the CEO Juice syncs, while others implement 
+            only the specific syncs they require to meet their goals. The accompanying 
+            graphic illustrates the CEO Juice syncs that we support.
+            
+            <div class="grid justify-items-center w-full py-4">
+                <Picture
+                src={connectwise_manage}
+                alt={"what's included"}
+                sizes="(max-width: 800px) 100vw, 400px"
+                width={600}
+                height={400}
+                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center"
+                />
+            </div>
+        </p2>
+        <p3 class="text-lg mt-4 text-slate-600">
+            Now in our 4th year implementing the CEO Juice syncs for ConnectWise to 
+            eAutomate integration we have developed an understanding of the essential 
+            elements required for a successful integration. These are depicted in 
+            the diagram below. While these elements are crucial for a successful 
+            integration, their application may vary across different implementations.  
+
+            <div class="grid justify-items-center w-full py-4">
+                <Picture
+                src={elements}
+                alt={"what's included"}
+                sizes="(max-width: 800px) 100vw, 400px"
+                width={600}
+                height={400}
+                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center"
+                />
+            </div>
+        </p3>
+        <p4 class="text-lg mt-4 text-slate-600">
+            During our discovery phase, we conduct a thorough analysis of the 
+            client’s system environment. During this process, we gather valuable 
+            insights into the client’s system, including:<br></br>
+          <ul class="list-disc list-inside text-lg text-slate-600 space-y-4 ">
+            <li>How long the client eAutomate system has been in operation.</li>
+            <li>How long the client ConnectWise system has been in operation.</li>
+            <li>If the CW system was:
+                <ul class="list-disc list inside text-lg text-slate-600 ps-20 mt-2 space-y-1">
+                    <li>Part of an acquisition</li>
+                    <li>Newly installed, or </li>
+                    <li>Operating internally for some number of years.</li>
+                </ul>
+            </li>
+            <li>How Contracts are being added to eAuto (if at all):
+                <ul class="list-disc list inside text-lg text-slate-600 ps-20 mt-2 space-y-1">
+                    <li>Manually to match CW Agreements, by line item</li>
+                    <li>Manually as a summary of CW Agreements</li>
+                    <li>Number of Agreements in CW, if at all</li>
+                    <li>Number of IT Contracts in eAutomate, if at all</li>
+                </ul>
+            </li>
+          </ul>
+          
+        </p4>
+        <div class="pt-6">
+            <p5 class="py-6 text-lg mt-4 text-slate-600">
+                This information, along with other relevant details gathered 
+                during the discovery phase, enables us to assess the project’s 
+                complexity and determine the appropriate level of involvement 
+                for each essential element of the integration. 
+            </p5>
+        </div>
+      </div>
+  </Container>
+</Layout>
