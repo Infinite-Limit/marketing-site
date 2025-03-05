@@ -5,12 +5,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: [
+        sans: ['"Linik Sans"', 'sans-serif'],
+        /* old font was
+        [
           "Bricolage Grotesque Variable",
           "Inter Variable",
           "Inter",
           ...defaultTheme.fontFamily.sans,
-        ],
+        ], */
       },
     },
   },
