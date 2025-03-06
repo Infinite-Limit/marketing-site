@@ -1,22 +1,11 @@
 ---
 import Container from "@components/container.astro";
-import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import { Image } from "astro:assets";
-import infiniteLogo from "assets/Infinite-limit-Logo-multi.png";
+import infiniteLogo from "assets/Infinite-limit-Logo-multi-eps.svg";
 
 const menuitems = [
-  /*{
-    title: "Features",
-    path: "/marketing-site",
-    children: [
-      { title: "Action", path: "/marketing-site/" },
-      { title: "Another action", path: "/marketing-site" },
-      { title: "Dropdown Submenu", path: "/marketing-site" },
-      { title: "404 Page", path: "/marketing-site/404" },
-    ],
-  },*/
   {
     title: "Home",
     path: "/marketing-site/",
@@ -48,17 +37,16 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/marketing-site/" class="text-lg"
-          ><!--<span class="font-bold text-slate-800">Infinite Limit</span><span
-            class="text-slate-500"> | Business Services</span>-->
+        <a href="/marketing-site/" class="text-lg">
             <Image 
             src={infiniteLogo} 
             alt="Infinite Logo" 
-            width="284"
-            height="80"/>
+            width="398"
+            height="109"
+            class="lg:pl-10 lg:pt-4"/>
         </a>
         <div class="block lg:hidden">
-          <MenuIcon class="w-4 h-4 text-gray-800" />
+          <MenuIcon class="items-center w-4 h-4 text-gray-800" />
         </div>
       </div>
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
