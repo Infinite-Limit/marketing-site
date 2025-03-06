@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { Picture } from "astro:assets";
-import bridge from "assets/bridge.jpg";
+import bridge from "assets/bridge2.svg";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
@@ -29,9 +29,10 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
           sizes="(max-width: 800px) 100vw, 620px"
           loading="eager"
           format="avif"
+          class="bg-white rounded-lg shadow-xl"
         />
     </div>
-    <div class="flex flex-col gap-3 mx-auto max-w-2xl mt-4">
+    <div class="flex flex-col gap-3 mx-auto max-w-2xl mt-8">
       <h2 class="text-lg text-center italic leading-relaxed text-slate-500">
         Bridging the Gap Between People, Process & Technology
       </h2>
@@ -82,7 +83,7 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
               sizes="(max-width: 800px) 100vw, 400px"
               width={350}
               height={400}
-              class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+              class="w-full rounded-md rounded transition group-hover:-translate-y-2 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
             /></a>
           </div>
 
@@ -105,7 +106,7 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
               sizes="(max-width: 800px) 100vw, 400px"
               width={350}
               height={400}
-              class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+              class="w-full rounded-md rounded transition group-hover:-translate-y-2 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
             /></a>
           </div>
 
