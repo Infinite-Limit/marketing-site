@@ -3,126 +3,126 @@
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Black.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Black.woff2') format('woff2');
   font-weight: 900; /* Black (heaviest weight) */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-BlackItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-BlackItalic.woff2') format('woff2');
   font-weight: 900; /* Black (heaviest weight) */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Bold.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Bold.woff2') format('woff2');
   font-weight: 700; /* Bold */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-BoldItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-BoldItalic.woff2') format('woff2');
   font-weight: 700; /* Bold */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-ExtraBold.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-ExtraBold.woff2') format('woff2');
   font-weight: 800; /* ExtraBold (between Bold and Black) */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-ExtraBoldItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-ExtraBoldItalic.woff2') format('woff2');
   font-weight: 800; /* ExtraBold (between Bold and Black) */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-ExtraLight.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-ExtraLight.woff2') format('woff2');
   font-weight: 200; /* ExtraLight (very light) */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-ExtraLightItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-ExtraLightItalic.woff2') format('woff2');
   font-weight: 200; /* ExtraLight (very light) */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Italic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Italic.woff2') format('woff2');
   font-weight: 400; /* Regular (italic version) */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Light.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Light.woff2') format('woff2');
   font-weight: 300; /* Light */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-LightItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-LightItalic.woff2') format('woff2');
   font-weight: 300; /* Light */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Medium.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Medium.woff2') format('woff2');
   font-weight: 500; /* Medium (between Regular and Bold) */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-MediumItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-MediumItalic.woff2') format('woff2');
   font-weight: 500; /* Medium (between Regular and Bold) */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Regular.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Regular.woff2') format('woff2');
   font-weight: 400; /* Regular */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-SemiBold.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-SemiBold.woff2') format('woff2');
   font-weight: 600; /* SemiBold (between Medium and Bold) */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-SemiBoldItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-SemiBoldItalic.woff2') format('woff2');
   font-weight: 600; /* SemiBold (between Medium and Bold) */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-Thin.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-Thin.woff2') format('woff2');
   font-weight: 100; /* Thin (lightest weight) */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Linik Sans';
-  src: url('/public/fonts/LinikSans-ThinItalic.woff2') format('woff2');
+  src: url('/marketing-site/fonts/LinikSans-ThinItalic.woff2') format('woff2');
   font-weight: 100; /* Thin (lightest weight) */
   font-style: italic;
 }
