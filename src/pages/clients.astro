@@ -27,99 +27,110 @@ import Layout from "@layouts/Layout.astro";
             src={laserfax}
             alt={"laserfax"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={333}
+            height={94}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-cente accelerate"
             />
             <Picture
             src={standley}
             alt={"standley"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={269}
+            height={149}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={ubs}
             alt={"ubs"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={284}
+            height={146}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={gallivan}
             alt={"gallivan"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={239}
+            height={72}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={kelley}
             alt={"kelley"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={210}
+            height={60}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={mca}
             alt={"mca"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={318}
+            height={151}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={msi}
             alt={"msi"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={186}
+            height={94}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={pbs}
             alt={"pbs"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={276}
+            height={120}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={abm}
             alt={"abm"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={228}
+            height={134}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={knight}
             alt={"knight"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={256}
+            height={106}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={doceo}
             alt={"doceo"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={276}
+            height={70}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
             <Picture
             src={boring}
             alt={"boring"}
             sizes="(max-width: 800px) 100vw, 400px"
-            width={400}
-            height={400}
-            class="w-full rounded-md rounded bg-white object-cover object-center"
+            width={256}
+            height={256}
+            class="w-full max-w-full rounded-md rounded bg-white object-contain object-center accelerate"
             />
         </div>
     </div>
   </Container>
 </Layout>
+
+<style>
+  .accelerate {
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-overflow-scrolling: touch;
+  }
+  .grid .accelerate {
+    aspect-ratio: auto; /* Respects intrinsic ratio from width/height */
+  }
+</style>
