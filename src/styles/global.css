@@ -126,3 +126,15 @@
   font-weight: 100; /* Thin (lightest weight) */
   font-style: italic;
 }
+
+/* Added styles for flicker fix */
+.accelerate {
+  -webkit-backface-visibility: hidden; /* For older WebKit browsers */
+  backface-visibility: hidden; /* Standard property for broader compatibility */
+  transform: translateZ(0);
+  -webkit-overflow-scrolling: touch; /* Improves scroll smoothness on iOS */
+}
+
+img {
+  aspect-ratio: auto; /* Respects intrinsic width/height ratio */
+}
