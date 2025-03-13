@@ -6,7 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://infinite-limit.github.io",
-  base: '/marketing-site',
+  site: "https://infinitelimit.com",
+  // base: '/marketing-site',
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 });
