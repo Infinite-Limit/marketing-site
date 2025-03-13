@@ -8,27 +8,27 @@ import infiniteLogo from "../../assets/Infinite-Limit-Logo-multi-eps.svg";
 const menuitems = [
   {
     title: "Home",
-    path: "/marketing-site/",
+    path: "/",
   },
   {
     title: "About",
-    path: "/marketing-site/about",
+    path: "/about",
     children: [
-      { title: "Infinite Limit, LLC", path: "/marketing-site/about" },
-      { title: "Meet the Team", path: "/marketing-site/team" },
+      { title: "Infinite Limit, LLC", path: "/about" },
+      { title: "Meet the Team", path: "/team" },
     ],
   },
   {
     title: "Our Approach",
-    path: "/marketing-site/approach",
+    path: "/approach",
   },
   {
     title: "Clients",
-    path: "/marketing-site/clients",
+    path: "/clients",
   },
   {
     title: "Contact",
-    path: "/marketing-site/contact",
+    path: "/contact",
   },
 ];
 ---
@@ -37,7 +37,7 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/marketing-site/" class="text-lg">
+        <a href="/" class="text-lg">
             <Image 
             src={infiniteLogo} 
             alt="Infinite Logo" 
