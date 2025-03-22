@@ -17,16 +17,19 @@ import Link from "@components/ui/link.astro";
       class="rounded-2xl shadow-xl"
     />
   </div>
-  <div>
+  <div class="space-y-6 flex flex-col mx-auto max-w-4xl">
     <h1
       class="text-4xl lg:text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
       there is no limit.
     </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+    <p class="block text-justify text-lg mt-4 text-slate-600 max-w-xl">
       Infinite Limit | Business Services (ILBS) offers consulting 
       Services to businesses of all sizes. Our services include: 
       IT Planning; Systems Integrations; IT Management; ERP Deployment; 
-      Acquisitions and more.<br><br/>ILBS is currently focused on 
+      Acquisitions and more.
+    </p>
+    <p class="block text-justify text-lg mt-4 text-slate-600 max-w-xl">
+      ILBS is currently focused on 
       providing ConnectWise to eAutomate integration services for 
       Office Equipment Dealers.  Our unique qualifications enabled 
       us to successfully deliver these services to over a dozen 
@@ -38,8 +41,6 @@ import Link from "@components/ui/link.astro";
         href="/about"
         class="flex gap-1 items-center justify-center"
         rel="noopener">
-        <!--<Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
-        leaving this commented for now in case we want to add a different logo picture-->
          About us
       </Link>
       <Link
@@ -48,8 +49,6 @@ import Link from "@components/ui/link.astro";
         rel="noopener"
         href="/contact"
         class="flex gap-1 items-center justify-center">
-        <!--<Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-        leaving this commented for now in case we want to add a different logo picture-->
          Contact
       </Link>
       <Link
@@ -58,8 +57,6 @@ import Link from "@components/ui/link.astro";
         rel="noopener"
         href="/approach"
         class="flex gap-1 items-center justify-center">
-        <!--<Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-        leaving this commented for now in case we want to add a different logo picture-->
          Our Approach
       </Link>
     </div>
